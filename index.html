@@ -2,11 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>progress-bar</title>
 </head>
-<body>
-  
+<body class="root">
+  <header></header>
+  <main class="main">
+    <section class="loading">
+      <div class="loader">
+        <span class="loader__progress-status"></span>
+        <div class="loader__background">
+          <div class="loader__progress-line"></div>
+        </div>
+        <div class="loader__btn-wrapper">
+          <button class="loader__btn loader__btn_type_start">Start</button>
+          <button class="loader__btn loader__btn_type_stop">Stop</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="./script.js"></script>
 </body>
 </html>

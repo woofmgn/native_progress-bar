@@ -1,0 +1,65 @@
+.root {
+  height: 100vh;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loading {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loader__progress-status {
+  align-self: center;
+  color: #000;
+}
+
+.loader__background {
+  width: 100%;
+  background-color: #929090;
+  border-radius: 10px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.loader__progress-line {
+  height: 40px;
+  background-color: green;
+}
+
+.loader__btn-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.loader__btn {
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.loader__btn:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.4);
+}
+
+.loader__btn_type_start {
+  background-color: rgb(148, 222, 148);
+}
+
+.loader__btn_type_stop {
+  background-color: rgb(235, 128, 107);
+}
